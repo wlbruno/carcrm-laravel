@@ -6,4 +6,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::post('/register', [AuthController::class, 'store']);
 
-//Route::get('/olx/{id}', [DataScraping::class, 'index']);
+Route::get('/olx/{id}', [DataScraping::class, 'index']);
